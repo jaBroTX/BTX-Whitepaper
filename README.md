@@ -52,7 +52,8 @@ This whitepaper defines the complete BTX design, including:
 
 Click below to view the full whitepaper:
 
-👉 [**BTX_Whitepaper__jaBro_April_2025.pdf**](./BTX%20Whitepaper__jaBro_April%202025.pdf)
+👉 [📄 [Download the full BTX Whitepaper (PDF)](BTX%20Whitepaper--jaBro--April%202025.pdf)
+
 
 ---
 
