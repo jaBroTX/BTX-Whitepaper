@@ -1,0 +1,53 @@
+# BTX in 2 Pages  
+*A scalable, private, and offline-friendly Bitcoin L2—no tokens, no bridges, no compromises.*  
+
+---
+
+## **Why BTX?**  
+Bitcoin faces two existential threats:  
+1. **Miner fee collapse** as block rewards dwindle and HODLing reduces transactions.  
+2. **Underfunded Core development**, risking long-term security.  
+
+BTX solves both by anchoring a high-throughput DAG to Bitcoin, recycling fees to miners (15–50%) and Core devs (1%).  
+
+---
+
+## **How It Works**  
+### **1. Bitcoin-Anchored DAG**  
+- **Transactions**: Confirm 2 prior TXs in a DAG (parallel processing, ~10k TPS).  
+- **Anchoring**: Snapshots hashed to Bitcoin every 1–12 blocks (volume-adjusted).  
+- **Finality**: 5 seconds (local) + Bitcoin-backed (after 100 DAG confirmations).  
+
+### **2. Incentive Alignment**  
+| Recipient       | Share of Fees | Purpose                          |  
+|-----------------|--------------|----------------------------------|  
+| Bitcoin Miners  | 15–50%       | Secure Bitcoin as rewards decline |  
+| BTX Validators  | 84%          | Run Bitcoin full nodes           |  
+| Core Dev Fund   | 1% (capped)  | Fund Bitcoin Core development    |  
+
+### **3. Privacy & Offline Use**  
+- **Default**: Encrypted addresses, DAG obfuscation, and unlinkable mint/burn.  
+- **Offline TXs**: Signed offline, finalized via SMS/mesh when connected.  
+
+### **4. Dual Wallet Design**  
+|                | Human Wallets          | AI Wallets               |  
+|----------------|------------------------|--------------------------|  
+| **Use Case**   | Retail payments        | Machine microtransactions |  
+| **Rules**      | Whole MOTO units only  | Sub-MOTO, batched TXs    |  
+
+---
+
+## **Why Bitcoin Needs BTX**  
+- **Sustains Security**: Fees from BTX’s high-volume DAG supplement miner revenue.  
+- **Funds Core Devs**: Decentralized, transparent funding via Bitcoin-anchored hashes.  
+- **Global Reach**: Works without internet (SMS/mesh).  
+
+---
+
+## **Get Involved**  
+BTX is **100% open-source** (MIT). We need:  
+- **Rust/Python devs** to build testnet components.  
+- **Cryptographers** to audit privacy/fee models.  
+- **Community advocates** to share the vision.   
+
+*No corporate control. No tokens. Just Bitcoin.*  
