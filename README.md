@@ -24,7 +24,7 @@ This whitepaper defines the complete BTX design, including:
 
 ## 📎 Key Features
 
-- **Bitcoin-Native**: All transactions are settled in MOTO, fully pegged to BTC (1 BTC = 100,000,000,000 MOTO).
+- **Bitcoin-Native**: All transactions are settled in MOTO, fully pegged to BTC (1 BTC = 10,000,000,000 MOTO).
 - **No Bridges or Wrapped Tokens**: MOTO is minted and burned via BTC-backed contracts with native anchoring.
 - **Fast Finality**: ~5 seconds global finality in normal conditions, with **instant local finality** in person-to-person or PoS settings.
 - **Offline Capable**: Transactions can be staged via QR, file transfer, SMS, or mesh networks.
