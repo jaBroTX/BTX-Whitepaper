@@ -22,8 +22,8 @@ BTX solves both by anchoring a high-throughput DAG to Bitcoin, recycling fees to
 | Recipient       | Share of Fees | Purpose                          |  
 |-----------------|--------------|----------------------------------|  
 | Bitcoin Miners  | 15–50%       | Secure Bitcoin as rewards decline |  
-| BTX Validators  | 84%          | Run Bitcoin full nodes           |  
-| Core Dev Fund   | 1% (capped)  | Fund Bitcoin Core development    |  
+| BTX Validators  | 82%          | Run Bitcoin full nodes           |  
+| Core Dev Fund   | 3% (capped)  | Fund Bitcoin Core development    |  
 
 ### **3. Privacy & Offline Use**  
 - **Default**: Encrypted addresses, DAG obfuscation, and unlinkable mint/burn.  
