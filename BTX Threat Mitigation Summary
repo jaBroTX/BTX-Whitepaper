@@ -1,0 +1,102 @@
+# BTX Threat Mitigation Summary
+
+## Purpose
+This document outlines key long-term threats to Bitcoin and explains how BTX (Bitcoin Transaction Layer) addresses or mitigates each of them, reinforcing Bitcoin’s resilience, neutrality, and sustainability.
+
+---
+
+## 1. Fee Collapse from Hodling & Low Transaction Velocity
+
+**Threat**: As Bitcoin becomes a long-term store of value, on-chain transaction volume declines. This risks insufficient miner fees once block subsidies expire.
+
+**BTX Mitigation**:
+- Migrates high-volume, low-cost transactions to BTX
+- Shares BTX Layer-2 transaction fees dynamically with Bitcoin miners
+- Anchors periodically to Bitcoin, keeping miners economically aligned
+
+---
+
+## 2. Block Template Censorship & Mining Pool Centralization
+
+**Threat**: Centralized mining pools control which transactions are included, introducing risks of censorship, front-running, and regulatory filtering.
+
+**BTX Mitigation**:
+- Proposes a BTX-governed, decentralized block template builder (Appendix H)
+- Prioritizes fee-maximizing TX selection with neutrality rules
+- Offers smaller miners access to clean, optimized block templates
+- Ensures system-critical BTX anchors are included without market distortion
+
+---
+
+## 3. Layer 2 Fragmentation & Alt-Layer Capture
+
+**Threat**: Competing custodial or altcoin-based Layer 2 solutions may siphon off users, breaking Bitcoin’s settlement supremacy.
+
+**BTX Mitigation**:
+- Fully Bitcoin-native (1:1 BTC/MOTO peg)
+- No new consensus, no custodians, no staking
+- Built to scale user payments while remaining fully anchored to Bitcoin
+
+---
+
+## 4. Spam & Blockspace Abuse (e.g., NFTs, Ordinals)
+
+**Threat**: Arbitrary data (images, inscriptions) bloats Bitcoin blocks, displacing economically useful transactions.
+
+**BTX Mitigation**:
+- Optional spam filters in the BTX template builder
+- Governance by BTX validators and Bitcoin Core-aligned developers
+- Helps prioritize real transaction data in miner templates
+
+---
+
+## 5. UX Inertia & Loss of Relevance
+
+**Threat**: Bitcoin risks becoming too slow or expensive for everyday usage compared to altcoins.
+
+**BTX Mitigation**:
+- ~5-second finality on BTX
+- Human and AI wallet support
+- Offline, SMS, and low-bandwidth transaction compatibility
+- No need for trusted third parties
+
+---
+
+## 6. Regulatory Fragmentation & Regional Bans
+
+**Threat**: Local bans or compliance mandates fragment Bitcoin’s network or limit accessibility.
+
+**BTX Mitigation**:
+- Default privacy at the Layer-2 level
+- Mesh, SMS, and offline compatibility
+- Modular governance allows for jurisdictional adaptation without compromising core logic
+
+---
+
+## 7. Energy or Hashrate Collapse (e.g., ESG attacks)
+
+**Threat**: Coordinated energy regulation or market shocks may cause rapid hashrate drops, undermining Bitcoin’s security.
+
+**BTX Mitigation**:
+- Dynamic fee split increases miner compensation when Bitcoin difficulty drops
+- Provides stabilizing revenue during hashrate downturns
+
+---
+
+## Summary Table
+
+| Threat                           | BTX Mitigation Summary                                               |
+|----------------------------------|----------------------------------------------------------------------|
+| Fee Collapse                     | Offloads volume + shares fees with miners                           |
+| Block Template Centralization    | Neutral builder module + miner alignment                            |
+| L2 Fragmentation                 | Native, non-custodial BTC-pegged design                             |
+| Spam/Bloat                       | Optional spam filtering via decentralized governance                |
+| UX Irrelevance                   | Fast finality, AI/human wallet UX, offline options                  |
+| Regulatory Bans                  | Private, offline, and modular architecture                          |
+| Hashrate Collapse                | Dynamic fee split to miners during low-difficulty epochs            |
+
+---
+
+## License
+This document is part of the BTX protocol documentation and is released under the MIT License.
+
